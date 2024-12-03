@@ -5,15 +5,15 @@ h1, h2, h3, h4 {
     padding-right: 1em;
     padding-left: 1em;
     margin-top: 0;
-    text-shadow: 0px 0px 8px #fff4e6;
+    text-shadow: 0px 0px 8px #ede6ff;
     z-index: 200;
     font-size: 20pt;
     text-align: center;
 
-    color: #511;
+    color: rgb(22, 17, 85);
 }
 h4 {
-    color: #433;
+    color: rgb(55, 51, 68);
 }
 h3 {
     text-align: left;
@@ -31,7 +31,7 @@ h1 {
 
 p, li, dd {
     padding-right: 1em;
-    text-shadow: 0px 0px 8px #fff4e6;
+    text-shadow: 0px 0px 8px #e8e6ff;
     line-height: 150%;
     padding: 20px;
     color: #444;
@@ -56,7 +56,7 @@ dt {
 hr {
     margin-top:30px;
     margin-bottom:30px;
-    border-top: 2px solid #e62;
+    border-top: 2px solid rgb(128, 136, 255);
 }
 hr.thin {
     width: 50%;
@@ -73,7 +73,7 @@ div {
 }
 div.mainheader {
     z-index: -250;
-    background-color: #fff4e6aa;
+    background-color: #e6edffaa;
 }
 div.main, div.mainheader {
     max-width: 600pt;
@@ -124,7 +124,7 @@ img.gallery {
     padding: 8px;
     display:block;
     margin:auto;
-    border: 3px dashed #e62;
+    border: 3px dashed rgb(37, 34, 238);
 }
 img.right, img.left {
     position: absolute;
@@ -151,7 +151,7 @@ body {
     font-family: "Futura PT", "Verdana", sans-serif;
     font-weight: normal;
     text-rendering: optimizeLegibility;
-    background: linear-gradient(to right bottom, #fff4e6, #f6fbff);
+    background: linear-gradient(to right bottom, #b8e5ff, #f9f6ff);
     margin: auto;
     overflow-x: hidden;
     
